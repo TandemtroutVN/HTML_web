@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML WEB</title>
+	</head>
+	<body>
+		<h1>Example: Student time table</h1>
+		<legend align = "center">Student time table: semester 1</legend>
+		
+		<table border = "1" width = "100%" cellpadding="8">
+			<thead>
+				<tr>
+					<th align = "center" bgcolor="#C9C9C9">Period</th>
+					<th align = "center" bgcolor="#C9C9C9">Monday</th>
+					<th align = "center" bgcolor="#C9C9C9">Tuesday</th>
+					<th align = "center" bgcolor="#C9C9C9">Wednesday</th>
+					<th align = "center" bgcolor="#C9C9C9">Thursday</th>
+					<th align = "center" bgcolor="#C9C9C9">Friday</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td align = "center"><b>Period 1</b></td>
+					<td align = "left">Math</td>
+					<td rowspan = "2">Programming</td>
+					<td>English</td>
+					<td>Web Design</td>
+					<td>Math</td>
+				</tr>
+				<tr>
+					<td align = "center"><b>Period 2</b></td>
+					<td>History</td>
+					<td>Science</td>
+					<td>English</td>
+					<td>PE</td>
+				</tr>
+				<tr>
+					<td align = "center" colspan = "6" bgcolor="#F5F5F5"><b>Lunch Break</b></td>
+				</tr>
+				<tr>
+					<td align = "center"><b>Period 3</b></td>
+					<td colspan= "2"  align = "center">Project work</td>
+					<td>Math</td>
+					<td>Programming</td>
+					<td>Free</td>
+				</tr>
+				<tr>
+					<td align = "center"><b>Period 4</b></td>
+					<td>English</td>
+					<td>History</td>
+					<td rowspan = "2">Science Lab</td>
+					<td>Web Design</td>
+					<td>Math</td>
+				</tr>
+				<tr>
+					<td align = "center"><b>Period 5</b></td>
+					<td>PE</td>
+					<td>Math</td>
+					<td>English</td>
+					<td>Programming</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<td colspan = "6" align = "center" bgcolor="#F5F5F5">Note: This timetable is subject to change</td>
+			</tfoot>
+		</table>
+	</body>
+</html>
