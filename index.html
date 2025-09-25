@@ -1,68 +1,134 @@
+
 <!DOCTYPE html>
+
 <html>
 	<head>
-		<title>HTML WEB</title>
+		<title>dealine 4</title>
 	</head>
 	<body>
-		<h1>Example: Student time table</h1>
-		<legend align = "center">Student time table: semester 1</legend>
-		
-		<table border = "1" width = "100%" cellpadding="8">
-			<thead>
-				<tr>
-					<th align = "center" bgcolor="#C9C9C9">Period</th>
-					<th align = "center" bgcolor="#C9C9C9">Monday</th>
-					<th align = "center" bgcolor="#C9C9C9">Tuesday</th>
-					<th align = "center" bgcolor="#C9C9C9">Wednesday</th>
-					<th align = "center" bgcolor="#C9C9C9">Thursday</th>
-					<th align = "center" bgcolor="#C9C9C9">Friday</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td align = "center"><b>Period 1</b></td>
-					<td align = "left">Math</td>
-					<td rowspan = "2">Programming</td>
-					<td>English</td>
-					<td>Web Design</td>
-					<td>Math</td>
-				</tr>
-				<tr>
-					<td align = "center"><b>Period 2</b></td>
-					<td>History</td>
-					<td>Science</td>
-					<td>English</td>
-					<td>PE</td>
-				</tr>
-				<tr>
-					<td align = "center" colspan = "6" bgcolor="#F5F5F5"><b>Lunch Break</b></td>
-				</tr>
-				<tr>
-					<td align = "center"><b>Period 3</b></td>
-					<td colspan= "2"  align = "center">Project work</td>
-					<td>Math</td>
-					<td>Programming</td>
-					<td>Free</td>
-				</tr>
-				<tr>
-					<td align = "center"><b>Period 4</b></td>
-					<td>English</td>
-					<td>History</td>
-					<td rowspan = "2">Science Lab</td>
-					<td>Web Design</td>
-					<td>Math</td>
-				</tr>
-				<tr>
-					<td align = "center"><b>Period 5</b></td>
-					<td>PE</td>
-					<td>Math</td>
-					<td>English</td>
-					<td>Programming</td>
-				</tr>
-			</tbody>
-			<tfoot>
-				<td colspan = "6" align = "center" bgcolor="#F5F5F5">Note: This timetable is subject to change</td>
-			</tfoot>
-		</table>
+		<div style="width: 55%; border: 2px solid black; padding: 1px; margin: 1px; background-color:#99A6E5; margin-left: 14%">
+			<div style="background-color:CYAN; width: 35%; margin-left: 33%; border-radius: 10px; border: solid 2px black; box-shadow: 8px 8px 6px rgba(0,0,0,0.5);">
+				<div style="font-size: 35px; text-align: center; font-weight: bold">Jackson</div>
+				<div style="background-color:black; width: 99.1%; border: solid 3px black"></div>
+				<div style="font-size: 35px; text-align: center; font-weight: bold">Electronics</div>
+			</div>
+			
+			<h2 align = "center"><b>Registration Form</b></h2>
+			<form>
+				<table align = "center" style = "font-size: 18px" width = "80%">
+					<caption>Register your Jackson Electronics product here</caption>
+					<tr>
+						<td>First Name</td>
+						<td>
+							<input style="background-color:white" border = "1px" type="text" id="fname">
+							<label>Last Name: </label>
+							<input style="background-color:white" border = "1px" type="text" id="lname">
+						</td>
+					</tr>
+					<tr>
+						<td>Address #1</td>
+						<td>
+							<input style="background-color:white; width: 47%" border = "1px" type="text" id="address1">
+						</td>
+					</tr>
+					<tr>
+						<td>Address #2</td>
+						<td>
+							<input style="background-color:white; width: 47%" border = "1px" type="text" id="address2">
+						</td>
+					</tr>
+					<tr>
+						<td>City</td>
+						<td>
+							<input style="background-color:white; width: 35%" border = "1px" type="text" id="address2">
+							<label>State:</label>
+							<input style="background-color:white; width: 10%" border = "1px" type="text" id="state">
+							<label>Zip:</label>
+							<input style="background-color:white; width: 15%" border = "1px" type="text" id="zip">
+						</td>
+					</tr>
+					<tr>
+						<td>Country</td>
+						<td>
+							<input style="background-color:white" border = "1px" type="text" value="United States" id="country">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><hr></td>
+					</tr>
+					<tr>
+						<td>Product</td>
+						<td>
+							<select id="product" style="width: 25%">
+								<option value="ScanMaster">ScanMaster</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Date Purchased</td>
+						<td>
+							<input  style="background-color:white; width: 28%" border = "1px" type="date" id="date">
+						</td>
+					</tr>
+					<tr>
+						<td>Serial #</td>
+						<td>
+							<input  style="background-color:white; width: 27.7%" border = "1px" type="text" id="serial">
+						</td>
+					</tr>
+					<tr>
+						<td>Used for</td>
+						<td>
+							<input type="radio" id="home" name="used"><label>Home</label>
+							<input type="radio" id="educational_instituntion" name="used" style="margin-left: 17%"><label>Educational Instituntion</label>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="radio" id="business" name="used"><label>Business</label>
+							<input type="radio" id="other" style="margin-left: 12.8%" name="used"><label>Other</label>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="radio" id="governmment"><label>Governmment</label>
+						</td>
+					</tr>
+					<tr>
+						<td style="width: 34%">System (check all that apply): </td>
+						<td>
+							<input type="checkbox" id="windows"><label>Windows</label>
+							<input type="checkbox" id="unix" style="margin-left: 12%"><label>UNIX</label>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="checkbox" id="macintosh"><label>Macintosh</label>
+							<input type="checkbox" id="other" style="margin-left: 10.4%"><label>Other</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan = "2"><hr></td>
+					</tr>
+					<tr>
+						<td><label>Comments?:</label></td>
+						<td>
+							<textarea id="comments" rows="3" cols="30" style="width: 99%; height: 100px"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="submit" value="Click to register" style="margin-left: 33%"><input type="submit" value="Click to cancel" style="margin-left: 1%">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
 	</body>
 </html>
