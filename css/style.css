@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 15vh;
+}
+.logo {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vh;
+    font-weight: bold;
+    color: tomato;
+    text-shadow: 12px 9px 2px #DFAFAF;
+    font-style: italic;
+}
+.navigation {
+    height: 5vh;
+    background-color: #de717a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_1 {
+    margin: 0px 20px 0px 25px;
+}
+.nav_2 {
+    font-size: 32px;
+    color: blue;
+}
+.center {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.left {
+    width: 15%;
+    height: 80vh;
+
+}
+.left_1 {
+    width: 100%;
+    height: 4vh;
+    background-color: #de71b2;
+    border-radius: 15px;
+    color: white;
+    margin-top: 10px;
+    text-indent: 10px;
+    display: flex;
+    align-items: center;
+}
+.middle {
+    width: 60%;
+    height: 80vh;
+}
+.middle_1 {
+    width: 55%;
+    height: 5vh;
+    background-color: #de71b2;
+    margin-top: 10px;
+    margin: 7px auto 0px auto;
+}
+.text {
+    color: rgb(209, 61, 35);
+    font-size: 29px;
+    margin-left: 14px;
+    font-weight: bold;
+}
+.list {
+    margin-left: 40px;
+}
+.back {
+    margin-left: 8px;
+    color: red;
+    font-weight: bold;
+}
+.input_1 {
+    margin-left: 25px; 
+    margin-top: 10px; 
+    width: 45%; 
+    height: 5vh;
+}
+.input_2 {
+    margin-left: 25px; 
+    margin-top: 20px; 
+    width: 45%; 
+    height: 5vh;
+}
+.radio_1 {
+    margin-left: 25px; 
+    margin-top: 20px; 
+}
+.textarea_1 {
+    margin-top: 20px; 
+    margin-left: 25px; 
+    width: 94%; 
+    height: 6vh;
+}
+.submit_1 {
+    margin-top: 4px; 
+    margin-left: 25px; 
+}
+.right {
+    width: 25%;
+    height: 80vh;
+}
+.right_1 {
+    width: 100%;
+    height: 76vh;
+    background-color: black;
+    margin-top: 7px;
+    color: white;
+    margin-bottom: 40px;
+}
+.right_2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+footer {
+    width: 100%;
+    height: 7vh;
+    background-color: #de71b2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.img_1 {
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+.red {
+    color: red;
+}
+.decor_1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.red_1 {
+    color: rgb(209, 107, 107);
+}
