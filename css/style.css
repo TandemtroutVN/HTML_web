@@ -1,12 +1,3 @@
-@media (max-width: 768px) {
-  .center {
-    flex-direction: column;
-  }
-  .left, .middle, .right {
-    width: 100%;
-    height: auto;
-  }
-}
 
 *{
     margin: 0;
