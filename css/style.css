@@ -27,11 +27,16 @@ header {
     justify-content: center;
 }
 .nav_1 {
-    margin: 0px 20px 0px 25px;
+    width: 13%;
+    border: 3px solid #de717a;
+    border-right-color: blue;
+    text-align: center;
+}
+.nav_left {
+    margin-left: 75%;
 }
 .nav_2 {
-    font-size: 32px;
-    color: blue;
+    margin-left: 45px;
 }
 .center {
     width: 100%;
@@ -135,7 +140,7 @@ footer {
 .img_1 {
     margin-top: 20px;
     border-radius: 50%;
-    
+    box-shadow: 10px 12px 8px #DFAFAF;
 }
 .red {
     color: red;
