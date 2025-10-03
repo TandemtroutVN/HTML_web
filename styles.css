@@ -10,7 +10,7 @@ header {
     width: 100%;
 }
 .head {
-    width: 1366px;
+    width: 1200px;
     height: 72px;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1366px;
+    width: 1200px;
     height: 680px;
     margin: 0 auto;
     
@@ -82,7 +82,7 @@ header {
     margin: 0 auto;
 }
 .container_2 {
-    width: 1366px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -114,7 +114,7 @@ header {
     margin: 70px auto 0px auto;
 }
 .container_3 {
-    width: 1366px;
+    width: 1200px;
     height: 500px;
     display: flex;
     justify-content: space-between;
@@ -122,7 +122,7 @@ header {
     margin: 0 auto;
 }
 .container_3_1 {
-    width: 1366px;
+    width: 1200px;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -150,7 +150,7 @@ header {
     margin: 20px 20px 0px 0px;
 }
 .container_4 {
-    width: 1366px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
