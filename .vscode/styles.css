@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Be Vietnam Pro';
+}
+header {
+    width: 100%;
+}
+.head {
+    width: 1200px;
+    padding: 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.head_logo {
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background-color:#E2E2E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_menu {
+    width: 820px;
+    height: 34px;
+    border-radius: 8px;
+    background-color:#E2E2E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head_button {
+    width: 120px;
+    height: 42px;
+    border-radius: 8px;
+    background-color:#E2E2E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 {
+    width: 100%;
+    background-color: #F1F1F1;
+    margin: 0 auto;
+}
+.container_1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    padding: 70px 0px;
+    margin: 0 auto;
+}
+.container_1_content {
+    width: 585px;
+    height: 267px;
+    border-radius: 8px;
+    background-color:#E2E2E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_1_image {
+    width: 585px;
+    height: 520px;
+    border-radius: 8px;
+    background-color:#E2E2E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container2 {
+    width: 1200px;
+    padding: 70px 0px;
+    margin: 0 auto;
+}
+.container2_1 {
+    width: 1200px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+.container2_2 {
+    width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_2_title {
+    width: 600px;
+    height: 80px;
+    border-radius: 8px;
+    background-color:#E2E2E2;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.container_2_item {
+    width: 380px;
+    height: 420px;
+    border-radius: 8px;
+    background-color:#E2E2E2;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.container3 {
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.container3_1 {  
+    width: 1200px;
+    padding: 70px 0px;
+    margin: 0 auto;
+}
+.container_3_1 {
+    width: 1200px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_3_2 {
+    width: 1200px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.container_3_title {
+    width: 600px;
+    height: 80px;
+    border-radius: 8px;
+    background-color:#E2E2E2;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_3_item {
+    width: 216px;
+    height: 300px;
+    border-radius: 8px;
+    background-color:#E2E2E2;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container4 {
+    width: 1200px;
+    padding: 70px 0px;
+    margin: 0 auto;
+    
+}
+.container4_1 {
+    width: 1200px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+.container4_2 {
+    width: 1200px;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.container_4_title {
+    width: 600px;
+    height: 80px;
+    border-radius: 8px;
+    background-color:#E2E2E2;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.container_4_item {
+    width: 277.5px;
+    height: 300px;
+    border-radius: 8px;
+    background-color:#E2E2E2;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    width: 100%;
+    padding: 29px 0px;
+    background-color: #E2E2E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
