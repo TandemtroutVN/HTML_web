@@ -124,16 +124,12 @@ header {
     height: 500px;
     margin: 0 auto;
 }
-.container_3 {
-    width: 1200px;
-    height: 500px;
-    margin: 0 auto;
-}
 .container_3_1 {
     width: 1200px;
     height: 130px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .container_3_2 {
     width: 1200px;
