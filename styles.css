@@ -108,6 +108,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto 40px auto;
 }
 .container_2_item {
     width: 350px;
@@ -148,6 +149,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto 40px auto;
 }
 .container_3_item {
     width: 170px;
@@ -186,7 +188,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0 auto 40px auto;
 }
 .container_4_item {
     width: 260px;
