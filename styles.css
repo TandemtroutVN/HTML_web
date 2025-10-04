@@ -11,7 +11,7 @@ header {
 }
 .head {
     width: 1200px;
-    padding:19px 0px;
+    padding: 18px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +93,7 @@ header {
     height: 900px;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 .container_2_title {
@@ -104,6 +104,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .container_2_item {
     width: 380px;
@@ -113,6 +114,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px 0px;
 }
 .container3 {
     width: 100%;
@@ -136,7 +138,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
 }
 .container_3_title {
     width: 600px;
@@ -197,7 +199,7 @@ header {
 }
 footer {
     width: 100%;
-    padding: 19px 0px;
+    padding: 18px 0px;
     background-color: #E2E2E2;
     display: flex;
     justify-content: center;
