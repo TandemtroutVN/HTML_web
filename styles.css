@@ -10,7 +10,7 @@ header {
     width: 100%;
 }
 .head {
-    width: 1200px;
+    width: 1100px;
     padding: 18px 0px;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width: 1100px;
     padding: 70px 0px;
     margin: 0 auto;
 }
@@ -78,18 +78,18 @@ header {
 
 }
 .container2 {
-    width: 1200px;
+    width: 1100px;
     padding: 70px 0px;
     margin: 0 auto;
 }
 .container2_1 {
-    width: 1200px;
+    width: 1100px;
     height: 130px;
     display: flex;
     justify-content: center;
 }
 .container2_2 {
-    width: 1200px;
+    width: 1100px;
     height: 900px;
     display: flex;
     flex-wrap: wrap;
@@ -121,19 +121,19 @@ header {
     background-color: #F1F1F1;
 }
 .container3_1 {  
-    width: 1200px;
+    width: 1100px;
     padding: 70px 0px;
     margin: 0 auto;
 }
 .container_3_1 {
-    width: 1200px;
+    width: 1100px;
     height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container_3_2 {
-    width: 1200px;
+    width: 1100px;
     height: 320px;
     display: flex;
     justify-content: space-between;
@@ -159,19 +159,19 @@ header {
     align-items: center;
 }
 .container4 {
-    width: 1200px;
+    width: 1100px;
     padding: 70px 0px;
     margin: 0 auto;
     
 }
 .container4_1 {
-    width: 1200px;
+    width: 1100px;
     height: 130px;
     display: flex;
     justify-content: center;
 }
 .container4_2 {
-    width: 1200px;
+    width: 1100px;
     height: 340px;
     display: flex;
     justify-content: space-between;
