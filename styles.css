@@ -11,7 +11,7 @@ header {
 }
 .head {
     width: 1200px;
-    padding: 29px 0px;
+    padding:19px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,10 +90,10 @@ header {
 }
 .container2_2 {
     width: 1200px;
-    height: 450px;
+    height: 900px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .container_2_title {
@@ -104,7 +104,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 .container_2_item {
     width: 380px;
@@ -114,7 +113,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
 }
 .container3 {
     width: 100%;
@@ -138,7 +136,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
 }
 .container_3_title {
     width: 600px;
@@ -199,7 +197,7 @@ header {
 }
 footer {
     width: 100%;
-    padding: 29px 0px;
+    padding: 19px 0px;
     background-color: #E2E2E2;
     display: flex;
     justify-content: center;
