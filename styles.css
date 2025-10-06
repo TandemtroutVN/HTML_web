@@ -7,19 +7,19 @@
 body {
     display: flex;
     flex-direction: row;
-    background-color: #F9F9F9;
-    font-family: 'Poppins';
+    background-color: #F4F4F4;
+    font-family: "Poppins";
+    font-size: 16px;
 
 }
-.right {
-    width: 6%;
-    height: 740px;
+.left {
+    width: 78px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 110px;
+    padding-top: 150px;
     background-color: #ffffff;
-    gap: 30px;
+    gap: 10px;
 }
 .nav-img {
     width: 24px;
@@ -33,44 +33,61 @@ body {
     justify-content: center;
     background: linear-gradient(to right, rgba(179, 205, 253, 0.1), rgba(193, 212, 249, 0.52));; 
 }
-
+.nav-e {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .center {
     width: 94%;
-    padding: 22px;
+    padding: 30px;
     display: flex;
+    background-color: #F4F4F4;
     flex-direction: column;
     gap: 22px
 }
 .head {
     width: 100%;
-    height: 7vh;
+    height: 72px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 .head1 {
     width: 30%;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    height: 72px;
 }
-.head div {
+.text5 {
     font-size: 24px;
-    font-weight: 500;
+    color: #3E435D;
+    font-weight: bold;
+    height: 35px;
+    display: flex;
+    align-items: center;
 }
 .head .text2 {
-    font-size: 14px;
-    color: rgb(134, 134, 134);
+    font-size: 16px;
+    color: rgb(186, 186, 186);
+    height: 35px;
+    display: flex;
+    align-items: center;
 }
 .head2 {
     width: 70%;
+    height: 72px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 10px
+    gap: 20px
 }
 .head-img {
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 52px;
     border-radius: 7px;
 }
 .search{
@@ -78,19 +95,20 @@ body {
     align-items: center;
 }
 .head-img2 {
-    width: 18px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     position: absolute;
     margin-left: 15px;
 }
 .head-input {
-    width: 260px;
-    height: 32px;
-    text-indent: 38px;
-    border: #F9F9F9;
+    width: 374px;
+    height: 52px;
+    text-indent: 50px;
+    border: 0;
     border-radius: 8px;
     color: #ADA7A7;
-    font-family: 'Poppins';
+    font-size: 16px;
+    font-family: "Poppins";
 }
 .main {
     width: 100%;
@@ -107,6 +125,8 @@ body {
 .main-body {
     width: 100%;
     background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,20 +143,17 @@ body {
     justify-content: space-between;
 }
 .main-body-img-1 {
-    width: 80px;
-    height: 6vh;
     background-color: #4182F9;
+    font-size: 16px;
     border-radius: 10px;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px 30px;
 }
 .main-body-2 {
-    width: 30%;
+    width: 35%;
 }
 .main-body-3 {
-    width: 70%;
+    width: 65%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -158,26 +175,26 @@ body {
     gap: 7px;
 }
 .text1{
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: bold;
 }
 .text2 {
     font-size: 16px;
-    color: #ADA7A7;
+    color: #BABABA;
 }
 .text3 {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: bold;
 }
 .input {
     height: 52px;
-    background-color: #F9F9F9;
+    background-color: #F4F4F4;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px;
-    color:  rgb(186, 186, 186);
+    color:  #BABABA;
     font-size: 16px;
 }
 .input-img {
@@ -201,21 +218,28 @@ body {
 }
 .main-body-input {
     width: 100%;
-    height: 240px;
+    height: 300px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
+.main-body-input-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
 .main-body-1_2 {
-    width: 240px;
+    width: 35%;
     display: flex;
     flex-direction: column;
     gap: 17px;
 }
 .main-body-1_2-add {
-    width: 75%;
-    background-color: #bed6ff;
-    color: #7aa8fe;
+    width: 200px;
+    height: 44px;
+    background-color: rgba(65, 130, 249, 0.1);
+    color: #4182F9;
     border-radius: 5px;
     display: flex;
     justify-content: center;
