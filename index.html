@@ -1,97 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <header>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dealine 7</title>
         <link rel="stylesheet" href="styles.css">
-    </head>
+    </header>
     <body>
-        <div class="right">
-            <a href="#"><img src="image/nav1.png" class="nav-img"></a>
-            <a href="#"><img src="image/nav 2.png" class="nav-img"></a>
-            <a href="#"><img src="image/nav3.png" class="nav-img"></a>
-            <a href="#"><img src="image/nav4.png" class="nav-img"></a>
-            <a href="#"><img src="image/nav5.png" class="nav-img"></a>
+        <div class="sidebar">
+            <a href="#" class="sidebar-active"><img src="image/nav1.png" class="sidebar-icon"></a>
+            <a href="#"><img src="image/nav 2.png" class="sidebar-icon"></a>
+            <a href="#"><img src="image/nav3.png" class="sidebar-icon"></a>
+            <a href="#"><img src="image/nav4.png" class="sidebar-icon"></a>
+            <a href="#"><img src="image/nav5.png" class="sidebar-icon"></a>
         </div>
-        <div class="center">
-            <div class ="head">
-                <div class="head1">
+        <div class="content-container">
+            <div class ="header">
+                <div class="header-left">
                     <div>Welcom, Amanda</div>
-                    <div class="text2">Tue, 07 June 2022</div>
+                    <div class="text-sub">Tue, 07 June 2022</div>
                 </div>    
-                <div class="head2">
+                <div class="header-right">
                     <div class="search">
-                        <img src="image/search.png" class="head-img2">
-                        <input type="text" placeholder="Search" class="head-input">
+                        <img src="image/search.png" class="header-img2">
+                        <form-input type="text" placeholder="Search" class="header-form-input">
                     </div>
-                    <img src="image/notification.png" class="head-img">
-                    <img src="image/profile.png" class="head-img">
+                    <img src="image/notification.png" class="header-img">
+                    <img src="image/profile.png" class="header-img">
                 </div>
             </div>
-            <div class="main">
-                <div class="main-img"></div>
-                <div class="main-body">
-                    <div class="main-body-1">
-                        <div class="main-body-2">
-                            <div class="row">
-                                <img src="image/Ellipse 11.png" class="main-body-img">
-                                <div class="main-body-2.1">
-                                    <div class="text1">Alexa Rawles</div>
-                                    <div class="text2">alexarawlet@gmail.com</div>
+            <div class="content">
+                <div class="content-img"></div>
+                <div class="content-body">
+                    <div class="content-body-1">
+                        <div class="content-body-2">
+                            <div class="flex-row">
+                                <img src="image/Ellipse 11.png" class="content-body-img">
+                                <div class="content-body-2.1">
+                                    <div class="text-title">Alexa Rawles</div>
+                                    <div class="text-sub">alexarawlet@gmail.com</div>
                                 </div>    
                             </div>    
                         </div>
-                        <div class="main-body-3">
-                            <div class="main-body-img-1">Edit</div>
+                        <div class="content-body-3">
+                            <div class="content-body-img-1">Edit</div>
                         </div>
                     </div>
-                    <div class="main-body-1_1">
-                        <div class="main-body-input">
-                            <div>
-                                <div class="main-body-input-1">
-                                    <label>Full Name</label>
-                                    <input type="text" name="fname" placeholder=" Your First Name" class="input">
+                    <div class="content-body-1_1">
+                        <div class="content-body-form-input">
+                            <div class="form-flex-column-left">
+                                <div class="content-body-form-input-1">
+                                    <div class="form-label">Full Name</div>
+                                    <div class="form-input">Your First Name <img src="image/dropDown_icon.png" class="form-dropdown-icon"></div>
                                 </div>
-                                <div class="main-body-input-1">
-                                    <label>Nick name</label>
-                                    <input type="text" name="nname" placeholder=" Your Nick Name" class="input">
+                                <div class="content-body-form-input-1">
+                                    <div class="form-label">Gender</div>
+                                    <div class="form-input">Your Gender<img src="image/dropDown_icon.png" class="form-dropdown-icon"></div>
                                 </div>
-                            </div>
-                            <div>
-                                <div class="main-body-input-1">
-                                    <label>Gender</label>
-                                    <input type="text" name="gender" placeholder=" Your Gender" class="input">
+                                <div class="content-body-form-input-1">
+                                    <div class="form-label">Language</div>
+                                    <div class="form-input">Your Language <img src="image/dropDown_icon.png" class="form-dropdown-icon"></div>
+                                </div> 
+                            </div> 
+                            <div class="form-flex-column-right">
+                                <div class="content-body-form-input-1">
+                                    <div class="form-label">Nick name</div>
+                                    <div class="form-input">Your Nick Name <img src="image/dropDown_icon.png" class="form-dropdown-icon"></div>
                                 </div>
-                                <div class="main-body-input-1">
-                                    <label>Country</label>
-                                    <input type="text" name="country" placeholder=" Your Country" class="input">
+                                <div class="content-body-form-input-1">
+                                    <div class="form-label">Country</div>
+                                    <div class="form-input">Your Country <img src="image/dropDown_icon.png" class="form-dropdown-icon"></div>
                                 </div>
-                            </div>
-                            <div>
-                                <div class="main-body-input-1">
-                                    <label>Language</label>
-                                    <input type="text" name="language" placeholder=" Your Language" class="input">
-                                </div>    
-                                <div class="main-body-input-1">
-                                    <label>Time Zone</label>
-                                    <input type="text" name="tzone" placeholder=" Your Time Zone" class="input">
+                                <div class="content-body-form-input-1">
+                                    <div class="form-label">Time Zone</div>
+                                    <div class="form-input">Your Time Zone <img src="image/dropDown_icon.png" class="form-dropdown-icon"></div>
                                 </div>   
                             </div>
                         </div>
                     </div>
-                    <div class="main-body-1_2">
-                        <div class="text3">My email Address</div>
-                        <div class="row">
+                    <div class="content-body-1_2">
+                        <div class="text-heading">My email Address</div>
+                        <div class="email-row">
                             <img src="image/icon.png">
-                            <div class="column">
+                            <div class="flex-column">
                                 <div>alexarawles@gmail.com</div>
-                                <div class="text2">1 month ago</div>
+                                <div class="text-sub">1 month ago</div>
                             </div>
                         </div>
-                        <div>
-                            <div class="main-body-1_2-add">+Add Email Address</div>
-                        </div>
+                        <div class="content-body-1_2-add">+Add Email Address</div>
                     </div>
                 </div>
             </div>
