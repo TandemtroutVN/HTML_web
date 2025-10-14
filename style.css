@@ -201,6 +201,7 @@ footer {
     width: 134.15625px;
     height: 48px;
     background-color: #17494D;
+    color: #FFFFFF;
     font-size: 17px;
     line-height: 28px;
     letter-spacing: 0px;
@@ -563,7 +564,7 @@ footer {
 }
 
 .main_body_7 {
-    height: 768.98px;
+    height: 879px;
     display: flex;
     flex-direction: column;
     align-items: center;
