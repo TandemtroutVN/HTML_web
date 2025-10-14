@@ -512,6 +512,7 @@ footer {
 }
 .body_6 {
     height: 658px;
+    background-color: #F8F9F9;
     display: flex;
     align-items: center;
     justify-content: center;
