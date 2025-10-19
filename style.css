@@ -170,6 +170,7 @@ body {
   gap: 40px;
   height: 686px;
   padding: 40px 0 0 0;
+  width: 100%;
 }
 .nx-clients-header {
   display: flex;
@@ -193,10 +194,10 @@ body {
   text-align: center;
 }
 .nx-clients-logos {
+  width: 100%;
   display: flex;
-  gap: 136px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 98px;
 }
 .nx-client-logo {
@@ -207,6 +208,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 100%;
 }
 .nx-features-header {
   display: flex;
@@ -234,9 +236,9 @@ body {
 }
 .nx-features-list {
   display: flex;
-  gap: 127.5px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 }
 .nx-feature-item {
   display: flex;
@@ -767,9 +769,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media (max-width: 1200px) {
-  .nx-clients-logos {
-    gap: 120px;
-  }
 }
