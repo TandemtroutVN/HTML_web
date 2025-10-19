@@ -177,6 +177,13 @@ body {
   padding: 40px 0 0 0;
   width: 100%;
 }
+.nx-clients-container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
 .nx-clients-header {
   display: flex;
   flex-direction: column;
