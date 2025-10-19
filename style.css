@@ -194,10 +194,10 @@ body {
   text-align: center;
 }
 .nx-clients-logos {
-  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 136px;
   height: 98px;
 }
 .nx-client-logo {
@@ -208,7 +208,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 100%;
 }
 .nx-features-header {
   display: flex;
@@ -237,8 +236,8 @@ body {
 .nx-features-list {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: center;
+  gap: 127.5px;
 }
 .nx-feature-item {
   display: flex;
@@ -275,15 +274,16 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #717171;
   text-align: center;
+  width: 251px;
 }
 .nx-feature-item:nth-child(2) {
   height: 280px;
 }
 .nx-feature-item:nth-child(2) .nx-feature-description {
-
+  width: 240px;
 }
 .nx-feature-item:nth-child(3) .nx-feature-content {
   width: 231px;
@@ -332,6 +332,7 @@ body {
   color: #4d4d4d;
 }
 .nx-section-description {
+  width: 601px;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -475,10 +476,11 @@ body {
   color: #4caf4f;
 }
 .nx-testimonial-description {
+  width: 748px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   color: #717171;
 }
 .nx-testimonial-author {
