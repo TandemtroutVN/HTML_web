@@ -23,6 +23,10 @@
         padding-bottom: 87.5px;
         max-width: 884px;
     }
+    .content-item {
+        color: #2B2B2B;
+        text-align: center;
+    }
 
     /* === SECTION 1 === */
     .section-1 {
@@ -57,6 +61,10 @@
         gap: 52.67px;
         max-width: 429.5px;
     }
+    .section-content-2 .content-item {
+        color: #285E67;
+        text-align: start;
+    }
     .section-content1 {
         gap: 52.67px;
     }
@@ -88,7 +96,7 @@
     }
     .section-icons-container {
         gap: 49px;
-        max-width: 884px;
+        max-width: 747px;
         flex-wrap: wrap;
     }
     .section-icons-container-1 {
