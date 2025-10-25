@@ -1,0 +1,210 @@
+@media (max-width: 645px) {
+    /* === CHỈ CÓ Ở MOBILE === */
+    .mobile-menu {
+        display: block;
+    }
+    .none {
+        display: none;
+    }
+
+    /* === HEADER === */
+    .header {
+        justify-content: center;
+        gap: 245px;
+    }
+    .nav {
+        display: none;
+    }
+
+    /* === HERO === */
+    .hero-1 {
+        margin-top: 31px;
+    }
+    .hero-title {
+        font-size: 37.9px;
+        line-height: 47px;
+        width: 360px;
+    }
+    .hero-subtitle {
+        width: 360px;
+    }
+    .hero-button {
+        width: 211px;
+    }
+
+    /* === GALLERY === */
+    .gallery-container {
+        flex-direction: column;
+        gap: 28px;
+        max-width: 360px;
+    }
+    .image {
+        max-width: 360px;
+        width: 100%;
+        height: 391px;
+    }
+
+    /* === SECTION COMMON === */
+    .section {
+        gap: 36px;
+        padding-bottom: 60px;
+    }
+
+    /* === SECTION 1 === */
+    .section-1 {
+        flex-direction: column;
+        gap: 196px;
+        padding: 64px 50px;
+        height: 676px;
+    }
+    .section-container {
+        gap: 35px;
+        width: 260px;
+    }
+    .section-content {
+        flex-direction: column;
+        gap: 26px;
+    }
+    .section-content-1 {
+        width: 260px;
+        align-items: center;
+    }
+    .section-title {
+        font-size: 39.7px;
+        line-height: 53px;
+        width: 260px;
+        padding-top: 2px;
+        text-align: center;
+    }
+    .section-head-1 .section-title {
+        width: 360px;
+        padding-top: 0;
+    }
+    .section-container-3 .section-title {
+        width: 340px;
+    }
+    .content-item {
+        color: #2A2A2A;
+        text-align: center;
+    }
+    .section-image {
+        display: none;
+    }
+
+    /* === SECTION 2 === */
+    .section-2 {
+        flex-direction: column;
+        gap: 53px;
+    }
+    .section-image-1 {
+        max-width: 360px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .section-container-1 {
+        width: 360px;
+        gap: 26px;
+    }
+    .section-head-1 {
+        gap: 16px;
+    }
+    .section-content1 {
+        gap: 26px;
+    }
+    .section-content-2 .content-item {
+        color: #285E67;
+        text-align: start;
+    }
+    .section-subtitle {
+        width: 360px;
+        text-align: center;
+    }
+
+    /* === SECTION 3 === */
+    .section-3 {
+        width: 360px;
+        padding: 0;
+        justify-content: center;
+    }
+    .section-container-3 {
+        gap: 41px;
+        justify-content: center;
+    }
+    .section-content-3 {
+        flex-direction: column;
+        gap: 41px;
+    }
+    .section-content-3-1 {
+        width: 281px;
+        align-items: center;
+    }
+    .content-item-3 {
+        text-align: center;
+    }
+    .section-image-3 {
+        display: none;
+    }
+
+    /* === SECTION 4 === */
+    .section-4 {
+        height: 1000px;
+        max-width: 360px;
+    }
+    .section-img-4 {
+        width: 361px;
+        height: 354px;
+    }
+    .section-4-1 {
+        top: 72.76px;
+        gap: 13px;
+    }
+    .icon-4 {
+        width: 46.557861328125px;
+        height: 41.473731994628906px;
+    }
+    .icon-5 {
+        width: 60px;
+        height: 60px;
+    }
+    .section-title-4 {
+        font-size: 21.33px;
+        line-height: 31px;
+        width: 220px;
+        text-align: center;
+    }
+    .section-subtitle-4 {
+        display: none;
+    }
+    .section-icons-container {
+        flex-direction: column;
+        padding: 71px 0;
+        width: 298px;
+        gap: 49px;
+        top: 115px;
+    }
+    .section-icons-container-1 {
+        width: 245.5px;
+        gap: 18px;
+    }
+    .icon4 {
+        width: 22.238801956176758px;
+        height: 24.205263137817383px;
+    }
+
+    /* === FOOTER === */
+    .footer {
+        height: 365px;
+    }
+    .header-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 36px;
+    }
+    .nav-footer {
+        width: 155px;
+        flex-wrap: wrap;
+    }
+    .icon-container-social {
+        width: 166px;
+    }
+}
