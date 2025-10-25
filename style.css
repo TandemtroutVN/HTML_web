@@ -208,7 +208,6 @@ body {
 .section-head-1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 24px;
 }
 .section-content1 {
@@ -233,6 +232,7 @@ body {
     height: 541px;
     background-color: #F4F4F4;
     align-items: center;
+    justify-content: center;
     border-radius: 12px;
 }
 .section-container-3 {
