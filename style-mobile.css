@@ -159,8 +159,8 @@
         gap: 13px;
     }
     .icon-4 {
-        width: 46.557861328125px;
-        height: 41.473731994628906px;
+        width: 46.56px;
+        height: 41.47px;
     }
     .icon-5 {
         width: 60px;
@@ -187,8 +187,8 @@
         gap: 18px;
     }
     .icon4 {
-        width: 22.238801956176758px;
-        height: 24.205263137817383px;
+        width: 22.24px;
+        height: 24.21px;
     }
 
     /* === FOOTER === */
@@ -197,12 +197,18 @@
     }
     .header-footer {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 36px;
+    }
+    .logo-footer {
+        position: relative;
+        right: 35px;
     }
     .nav-footer {
         width: 155px;
         flex-wrap: wrap;
+        position:relative;
+        right: 5px;
     }
     .icon-container-social {
         width: 166px;
