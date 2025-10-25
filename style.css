@@ -240,7 +240,7 @@ body {
     flex-direction: column;
     gap: 41px;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
 }
 .section-content-3 {
     display: flex;
