@@ -1,4 +1,4 @@
-@media (max-width: 650px) {
+@media (max-width: 550px) {
     .mobile-menu {
         display: block;
     }
@@ -35,9 +35,11 @@
     .gallery-container {
         flex-direction: column;
         max-width: 100%;
+        gap: 28px;
+        align-items: center;
     }
     .image {
-        max-width: 100%;
+        max-width: 356px;
         width: 100%;
         height: 391px;
     }
@@ -99,8 +101,9 @@
         width: 100%;
     }
     .section-image-1 {
-        max-width: 100%;
+        max-width: 360px;
         width: 100%;
+        height: 578px;
         object-fit: cover;
     }
     .section-container-1 {
@@ -119,12 +122,13 @@
     }
     .section-subtitle {
         width: 100%;
+        max-width: 360px;
         text-align: center;
     }
 
     /* === SECTION 3 === */
     .section-3 {
-        max-width: 100%;
+        max-width: 360px;
         padding: 0;
         justify-content: center;
         width: 100%;
@@ -185,7 +189,7 @@
     .section-icons-container {
         flex-direction: column;
         padding: 71px 0;
-        width: 298px;
+        max-width: 298px;
         gap: 49px;
         top: 115px;
         width: 100%;
