@@ -104,8 +104,9 @@ a {
 }
 .gallery-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    gap: 28px;
 }
 .image {
     width: 100%;
@@ -206,7 +207,8 @@ a {
     display: flex;
     gap: 50px;
     flex-direction: column;
-    width: 623.5px;
+    max-width: 623.5px;
+    width: 42%;
 }
 .section-head-1 {
     display: flex;
@@ -232,10 +234,10 @@ a {
     flex-direction: row;
     gap: 87px;
     width: 100%;
-    padding: 56px 110px 56px 114px;
     height: 541px;
     background-color: #F4F4F4;
     align-items: center;
+    justify-content: center;
     border-radius: 12px;
 }
 .section-container-3 {
@@ -244,6 +246,7 @@ a {
     gap: 41px;
     justify-content: flex-end;
     align-items: center;
+    width: 543px;
 }
 .section-content-3 {
     display: flex;
@@ -342,7 +345,7 @@ a {
     line-height: 24px;
     font-weight: 400;
     color: #2B2B2B;
-    width: 640px;
+    width: 100%;
 }
 .section-subtitle-4 {
     font-size: 16px;
@@ -399,7 +402,6 @@ a {
     color: #2B2B2B;
 }
 .footer {
-    max-width: 1441px;
     width: 100%;
     height: 245px;
     background-color: #285E67;
@@ -414,6 +416,7 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 80%;
+    max-width: 1441px;
 }
 .logo-footer {
     display: flex;
@@ -447,4 +450,5 @@ a {
     display: flex;
     gap: 24px;
     width: 80%;
+    max-width: 1441px;
 }

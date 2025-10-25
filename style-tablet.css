@@ -52,7 +52,7 @@
     }
     .section-container-1 {
         gap: 52.67px;
-        width: 429.5px;
+        max-width: 429.5px;
     }
     .section-content1 {
         gap: 52.67px;
@@ -82,9 +82,6 @@
     }
     .section-img-4 {
         max-width: 884px;
-    }
-    .section-subtitle {
-        width: 429.5px;
     }
     .section-icons-container {
         gap: 49px;
