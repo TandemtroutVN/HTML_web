@@ -10,7 +10,7 @@
     .header {
         justify-content: space-between;
         max-width: 360px;
-        padding: 32px 0 0 0;
+        padding: 27px 0 0 0;
     }
     .nav {
         display: none;
@@ -174,6 +174,10 @@
         top: 72.76px;
         gap: 13px;
     }
+    .section-button-4 {
+        width: 198px;
+        height: 46px;
+    }
     .icon-4 {
         width: 46.56px;
         height: 41.47px;
@@ -226,6 +230,7 @@
         flex-wrap: wrap;
         position:relative;
         right: 5px;
+        gap: 36px;
     }
     .icon-container-social {
         width: 166px;
