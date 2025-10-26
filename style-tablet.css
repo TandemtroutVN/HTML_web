@@ -1,11 +1,10 @@
 @media (max-width: 1024px) {
-    /* === CHỈ CÓ Ở TABLET HOẶC KHÁC BIỆT === */
     .header {
-        max-width: 884px;
+        max-width: 904;
     }
 
     .hero {
-        max-width: 884px;
+        max-width: 904;
     }
     .hero-1 {
         margin-top: 58px;
@@ -21,7 +20,7 @@
     .section {
         gap: 80px;
         padding-bottom: 87.5px;
-        max-width: 884px;
+        max-width: 904;
     }
     .content-item {
         color: #2B2B2B;
@@ -31,7 +30,7 @@
     /* === SECTION 1 === */
     .section-1 {
         gap: 0;
-        max-width: 884px;
+        max-width: 904;
     }
     .section-container {
         gap: 69px;
@@ -92,7 +91,7 @@
         height: 990px;
     }
     .section-img-4 {
-        max-width: 884px;
+        max-width: 904;
     }
     .section-icons-container {
         gap: 49px;
